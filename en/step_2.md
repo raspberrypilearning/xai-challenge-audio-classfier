@@ -36,21 +36,23 @@ Select **Add a new project**.
 
 --- task ---
 
-Give the project a name and set it to recognise **images**.
+Give the project a name and set it to recognise **sounds**.
 ![](images/name_project.png)
 
 --- /task ---
 
 --- task ---
 
-Select **CREATE**. Once created, click on the project title.
+Select **CREATE**.
 
 ![](images/create_button.png)
+
+Once created, click on the project title.
 
 --- /task ---
 
 
-Now that you have created a project that identifies images, you need to set out the different ways your images will be classified - `hotdog` and `nothotdog` - these will be our **classes**.
+Now that you have created a project that identifies sounds, you need to set out the different **classes** for your audio - the different words you want the model to recognise. In this example we will use the words `up`, `down`, `left` and `right`.
 
 --- task ---
 
@@ -58,3 +60,32 @@ Select **Train**. This will let you add new training data to your model.
 ![](images/train.png)
 
 --- /task ---
+
+Your model will load and show you a single box on the next page, titled `background noise`. Let's add some samples of background noise now.
+
+--- task ---
+
+If your browser asks you for permission to use your microphone click **Allow**.
+
+--- /task ---
+
+--- task ---
+
+Click `Add Example`. 
+
+![Button which reads '+ add example'](images/add_example.png)
+
+--- /task ---
+
+In the popup that appears, click the blue microphone to record some samples of the ambient sound in the room - just whatever is going on around you, but try not to speak into the microphone directly just yet. Remember, we're trying to capture `background noise`!
+
+--- task ---
+
+Record some samples of `background noise` using the microphone. Three or four different samples is great - try and get around ten or more seconds in each clip. 
+
+![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone](images/add_background_noise.png)
+
+**Remember: The more training data you give your model, the better it will work!**
+
+--- /task ---
+

@@ -1,15 +1,15 @@
 ## Train the model
 
-Imagine teaching a friend how to differentiate between two types of fruits, let's say apples and bananas, by showing them pictures. At first, they might get confused, especially if they've never seen these fruits before. But as you keep showing them more pictures and correcting their mistakes, they start getting the hang of it. After a while, they can correctly identify apples and bananas on their own.
+Imagine you're teaching a parrot to mimic certain words. You say "left", and you want the parrot to repeat "left". At first, the parrot might not get it right, maybe it squawks or says something different. But if you keep repeating "left" to the parrot and encourage it when it gets it right, eventually it will start saying "left" back to you. The same goes for "right", "up", and "down". After some time, whenever you say one of these words, the parrot will repeat it perfectly.
 
-Training a machine learning model is kind of like this process, but with a computer instead of a friend. For your classifier, we want to determine 'hotdogs' and 'not hotdogs', so we need to define these two groups to the model, then provide lots of examples of each.
+Training an audio classifier is a lot like teaching this parrot, but with a computer instead of a feathery friend. We want the computer to recognize the words 'left', 'right', 'up', and 'down'. So, we repeatedly "tell" the computer these words and correct it if it gets them wrong. After a while, just like the parrot, the computer will be able to identify these words whenever it "hears" them.
 
 --- task ---
 
-Select **Add new label** and create a label for the `hotdog` class.
-![](images/add_hotdog.png)
+Select **Add new label** and create a label for the `up` class.
+![](images/add_up.png)
 
-**Repeat** this step to create a second label for the `nothotdog` class.
+**Repeat** this step to create a second label for the `down`, `left` and `right` classes.
 
 --- /task ---
 
