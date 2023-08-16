@@ -9,38 +9,49 @@ Training an audio classifier is a lot like teaching this parrot, but with a comp
 Select **Add new label** and create a label for the `up` class.
 ![](images/add_up.png)
 
-**Repeat** this step to create a second label for the `down`, `left` and `right` classes.
 
 --- /task ---
 
 --- task ---
 
-We have collected two image sets for training your new machine learning model here (Click the plus sign to expand the collapses here):
+**Repeat** the above step to create more labels for each of the `down`, `left` and `right` classes.
 
-[[[hotdog-train]]]
-
-[[[not-hotdog-train]]]
-
-Look through the training data and **choose several images of hotdogs and several images of other things** from the data. The more images of each type you pick, the more accurate your model will be. 
+![](images/all_classes.png)
 
 --- /task ---
 
 --- task ---
 
-Drag and drop your chosen images into the relevant class (`hotdog` or `nothotdog`).
-![](images/hotdog_classes.png)
+Inside the `up` class, click `Add Example`. 
+
+![Button which reads '+ add example'](images/add_example.png)
+
+--- /task ---
+
+--- task ---
+
+Record a sample of yourself (and anyone else you like!) saying `up` by clicking the microphone. 
+
+![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone](images/add_background_noise.png)
 
 --- collapse ---
 ---
-title: Adding training images with Drag & Drop
+title: Some tips for recording your voice
 ---
 
-To 'drag and drop' images into your classes easily, you can set up the windows on your screen side-by-side by clicking on and dragging the tab you are working on to one side of the screen:
-![Image showing two windows side by side on a computer screen. On the left are several images of hotdogs, on the right is a window showing a machine learning model's classes page](images/splitscreen.png)
+Imagine you're teaching a new word to a friend from another country. Sometimes you might say the word slowly and clearly, and other times you might say it quickly or in your everyday speaking style. This helps your friend understand the word no matter how it's said. Recording your voice for the audio classifier is similar!
 
-Once you have set your screen up like this, you can simply just click on the training images you want to use and drag them into the right class, then release the mouse button:
++ Find a Quiet Spot: Just like finding the best place to teach your friend the new word, pick a spot where there's no background noise. This helps the computer focus on just your voice.
 
-![](images/dragdrop.gif)
++ Speak Clearly... But Not Always: Start by saying "left", "right", "up", and "down" very clearly. But also, mix it up! Sometimes say them quickly, or the way you'd say them in a regular conversation. This teaches the computer to recognize the words even when they're not perfectly pronounced.
+
++ Hold the Mic Steady: If you're using a microphone or a phone, hold it steady, about a hand's length away from your mouth. A headset mic shouldn't touch your face when you speak. Think of it as the "listening ear" that's eager to learn!
+
++ Not Too Loud, Not Too Soft: Speak at a normal volume. Imagine you're chatting with your friend at the park – not too shouty, but not whispering secrets either.
+
++ Do a Test Run: Before diving in, record a short clip and listen to it. If you can understand yourself, the computer probably can too!
+
+By giving the computer a mix of clear and everyday pronunciations, it'll be ready to understand you in the real world, no matter how you say the words. 
 
 --- /collapse ---
 
@@ -48,7 +59,15 @@ Once you have set your screen up like this, you can simply just click on the tra
 
 --- task ---
 
-Select **Back to project**.
+**Record** lots of samples for each class. 
+
+**Tip:** You should aim for **at least** 10-15 samples of each word, but again - the more **training data** you add to your model at this stage, the more accurate it will be at recognising the words you say.
+
+--- /task ---
+
+--- task ---
+
+When you have enough samples in each class, select **Back to project**.
 ![](images/back_to_project.png)
 
 --- /task ---
@@ -90,7 +109,7 @@ Similarly, if we test the computer program with the same data it trained on, we 
 So, it's essential to keep training and testing data separate to ensure that the computer program can perform the task accurately in various situations, not just the ones it has seen before.
 
 
-To see how successful your model is at classifying the test data, test your model with some of the images:
+To see how successful your model is at classifying the test data, test your model with :
 
 --- task ---
 
