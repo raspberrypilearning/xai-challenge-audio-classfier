@@ -81,11 +81,22 @@ In the popup that appears, click the blue microphone to record some samples of t
 
 --- task ---
 
-Record some samples of `background noise` using the microphone. Three or four different samples is great - try and get around ten or more seconds in each clip. 
+Record a sample of `background noise` by clicking the microphone. 
 
 ![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone](images/add_background_noise.png)
 
-**Remember: The more training data you give your model, the better it will work!**
+--- /task ---
+
+--- task ---
+
+When the recording is finished, click the blue **Add** button in the popup:
+![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone and a soundprint of the ambient recording](images/add_bg_noise_2.png)
 
 --- /task ---
 
+--- task ---
+
+Record several samples of the background noise where you are. 
+Try to do around 8 to 10 samples, but remember - the more **training data** you add, the better your model will work!
+
+--- /task ---
