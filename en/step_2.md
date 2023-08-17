@@ -77,7 +77,7 @@ Click `Add Example`.
 
 --- /task ---
 
-In the popup that appears, click the blue microphone to record some samples of the ambient sound in the room - just whatever is going on around you, but try not to speak into the microphone directly just yet. Remember, we're trying to capture `background noise`!
+In the popup that appears, click the blue microphone to record some 2 second samples of the ambient sound in the room - just whatever is going on around you, but try not to speak into the microphone directly just yet. Remember, we're trying to capture `background noise`!
 
 --- task ---
 

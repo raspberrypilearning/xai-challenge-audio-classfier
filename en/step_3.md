@@ -31,6 +31,7 @@ Inside the `up` class, click `Add Example`.
 --- task ---
 
 Record a sample of yourself (and anyone else you like!) saying `up` by clicking the microphone. 
+**Note:** You can only record a maximum of 2 seconds in each sample.
 
 ![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone](images/add_background_noise.png)
 
@@ -59,9 +60,19 @@ By giving the computer a mix of clear and everyday pronunciations, it'll be read
 
 --- task ---
 
-**Record** lots of samples for each class. 
+**Record** lots of samples for each class. You must add **a minimum of 8 samples in each class**, or you can't train your model. 
 
-**Tip:** You should aim for **at least** 10-15 samples of each word, but again - the more **training data** you add to your model at this stage, the more accurate it will be at recognising the words you say.
+--- collapse ---
+---
+title: How many samples should I add?
+---
+
+8 is the **very lowest** number of samples each class can have to create a working model. 
+
+You should aim for **around 10-15 samples of each word**, but again - the more **training data** you add to your model at this stage, the more accurate it will be at recognising the words you say.
+
+
+--- /collapse ---
 
 --- /task ---
 
@@ -88,7 +99,7 @@ Your model is now ready to be trained.
 Select **Train new machine learning model**.
 ![](images/train_new.png)
 
-You will have to wait a moment while the model trains.
+You will have to wait a moment while the model trains - read the information below about testing while the model is learning!
 
 --- /task ---
 
@@ -109,41 +120,22 @@ Similarly, if we test the computer program with the same data it trained on, we 
 So, it's essential to keep training and testing data separate to ensure that the computer program can perform the task accurately in various situations, not just the ones it has seen before.
 
 
-To see how successful your model is at classifying the test data, test your model with :
+To see how successful your model is at classifying the test data, test your model by:
 
 --- task ---
 
-Drag and drop an image into the link box (next to the Test with www button):
+Once the training is finished, click the `Start listening` button to test your machine learning model.
+![Image which says 'Try making a sound to see how it is recognised based on your training' with two buttons beneath. A darker blue button reading 'start listening' and a light blue button reading stop listening.](images/start_listening.png)
 
-![](images/test_with_www.png)
-
---- collapse ---
----
-title: Adding a test image without drag and drop
----
-
-Alternatively, you can:
-
-+ Right-click on an image
-+ Select Copy image address
-+ Paste the image address into the link box
-
---- /collapse ---
-
-**You can find the testing images here:**
-
-[[[hotdog-test]]]
-
-[[[nothotdog-test]]]
+Say one of the words that you have trained the computer to recognise: "up", "down", “left” or “right”. If your machine learning model recognises it, it will show a prediction of you said.
 
 --- /task ---
 
 --- task ---
 
-Click the **Test with www** button to test your model.
+If you’re not happy with how the model is working, go back to the **Train** page and add more examples to all the training buckets. Try varying your speed and pronunciation, having other people add samples in their voice... or doing funny voices yourself!
 
 --- /task ---
-
 
 --- task ---
 
@@ -164,7 +156,7 @@ If we use a training dataset that contains mostly small dogs and large cats, thi
 This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different sizes and breeds of dogs and cats. By doing this, we can help the computer learn to recognise the features that distinguish each type of animal, rather than just relying on the size of the training examples.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-By using more diverse and representative training data, we can help ensure that the computer makes accurate and fair predictions when it encounters new examples. This can make the computer more useful and reliable for different applications, from sorting pet adoption photos to assisting veterinarians in diagnosing animal health issues.
+By using more diverse and representative training data, we can help ensure that the computer makes accurate and fair predictions when it encounters new examples. This can make the computer more useful and reliable for different applications, from home assistants like Alexa or Home, to recognising birds from their songs.
 </p>
 
 Let's start making your machine learning application in Scratch and think about what it will do!
