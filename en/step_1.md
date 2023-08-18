@@ -1,5 +1,5 @@
 ## Introduction
-Welcome to Stage 2 of the Experience AI Challenge! You're about to embark on a visual odyssey where we cross the soundscapes of audio, machine learning, and coding.
+Welcome to Stage 2 of the Experience AI Challenge! You're about to embark on an audio odyssey where we cross the soundscapes of voice, machine learning, and coding.
 
 Ever wonder how your home assistant knows what you say and can respond? That’s all thanks to the technical wizardry of audio classification. Imagine giving your computer a superpower, where it can “hear” and understand voices, just like we do!
 
