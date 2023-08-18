@@ -127,7 +127,7 @@ To see how successful your model is at classifying the test data, test your mode
 Once the training is finished, click the `Start listening` button to test your machine learning model.
 ![Image which says 'Try making a sound to see how it is recognised based on your training' with two buttons beneath. A darker blue button reading 'start listening' and a light blue button reading stop listening.](images/start_listening.png)
 
-Say one of the words that you have trained the computer to recognise: "up", "down", “left” or “right”. If your machine learning model recognises it, it will show a prediction of you said.
+Say one of the words that you have trained the computer to recognise: "up", "down", “left” or “right”. If your machine learning model recognises it, it will show a prediction of what you said.
 
 --- /task ---
 
