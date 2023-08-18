@@ -97,6 +97,7 @@ When the recording is finished, click the blue **Add** button in the popup:
 --- task ---
 
 Record several samples of the background noise where you are. 
-Try to do around 8 to 10 samples, but remember - the more **training data** you add, the better your model will work!
+
+**The minimum required for your model to work is 8 samples**, but remember - the more **training data** you add, the better your model will work!
 
 --- /task ---
