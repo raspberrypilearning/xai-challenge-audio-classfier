@@ -12,19 +12,6 @@ You could:
 + Add sounds to your project:
 [[[generic-scratch3-sound-from-library]]]
 
-+ Make your application do something depending on whether the model says 'hotdog or nothotdog':
-
---- collapse ---
----
-title: Making changes based on the label
----
-
-Use an `if/else`{:class="block3control"} block with an equals operator to check if the label for the input is 'hotdog'. **If** it is, do something. Otherwise, do something else. This could be `change costume to []`{:class="block3looks"} or `play sound []`{:class="block3sound"}, or anything you like!
-
-![Image showing a yellow if/else block with a green equals operator block inside it. Inside that is a block which determines which label the model has selected based on input.](images/label_if.png)
-
---- /collapse ---
-
 + Make your application do something based on how confident it is about its prediction:
 
 --- collapse ---
@@ -38,6 +25,6 @@ Use the `recognise image (backdrop image) confidence` block with size and volume
 
 --- /collapse ---
 
-**This was just the warm up!** Now that you know how to build a text classification application that can detect hotdogs, what do **you** want to make? 
+**This was just the warm up!** Now that you know how to build a classification application that can control things on screen through sounds, what do **you** want to make? 
 
 In the next stage of the Experience AI challenge, you'll get to use the skills you've learnt in this project to create something totally cool and unique using Scratch and Machine Learning! [Click here](rpf.io/xaichallenge) to take the next exciting step in creating your own Artificial Intelligence app!
