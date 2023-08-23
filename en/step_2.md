@@ -54,6 +54,22 @@ Once created, click on the project title.
 
 Now that you have created a project that identifies sounds, you need to set out the different **classes** for your audio - the different words you want the model to recognise. In this example we will use the words `up`, `down`, `left` and `right`.
 
+--- collapse ---
+---
+title: Classes and Labels
+---
+
+**Labels** are the tags we attach to each audio clip to help the model identify what sound it's hearing, while **classes** are the main categories we sort these clips into. In this project, we're working with four classes: 'up', 'down', 'left', and 'right'.
+
+Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving 'up', you'd label that sound as 'up'. By doing this, you're informing the model that this particular sound corresponds to the 'up' direction. Similarly, if a sound suggests going 'left', you'd label it 'left', placing it in the 'left' class. The model will then use these labels to learn and differentiate between sounds for each direction.
+
+
+![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
+
+The classes you select are pivotal to how the model understands the sounds. In this instance, it needs to accurately categorize audio clips into one of the four directions. However, in different projects, you might classify sounds based on their tone, emotion, volume or any other distinct characteristic.
+
+--- /collapse ---
+
 --- task ---
 
 Select **Train**. This will let you add new training data to your model.
