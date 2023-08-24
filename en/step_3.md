@@ -153,7 +153,10 @@ Once you have tested a few of the images, answer the following questions in your
 
 --- /task ---
 
-### Bias and data
+--- collapse ---
+---
+title: Bias and data
+---
 
 When we teach a computer to recognise different things, like dogs and cats, we need to give it lots of examples to learn from. These examples are called **training data**.
 
@@ -161,12 +164,14 @@ If we use a training dataset that contains mostly small dogs and large cats, thi
 
 This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different sizes and breeds of dogs and cats. By doing this, we can help the computer learn to recognise the features that distinguish each type of animal, rather than just relying on the size of the training examples.
 
+--- /collapse ---
+
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Imagine you were making an app that predicted the age of people. 
+Imagine you were making an app that identifies musical instruments by their sounds.
 <br><br>
-Now think of 10 people who you could use to take photos of for your training data? What bias would you introduce? Have you picked people from a range of age groups? Would you app work with all people from all over the world with different faces and skin tones?
+Now, think of 10 instruments you'd record for your training data. What if you only picked instruments common in a rock band, like guitars and drums? What happens when someone tries to identify the sound of a sitar or a didgeridoo? Have you considered both Western and non-Western instruments?
 <br><br>
-By using more diverse and representative training data, we can help ensure that the computer makes accurate and fair predictions when it encounters new examples. This can make the computer more useful and reliable for different applications, from sorting pet adoption photos to assisting veterinarians in diagnosing animal health issues.
+By using a broad and diverse set of instrument sounds in our training data to avoid <strong>bias</strong>, the app has a better chance at correctly classifying a wide range of instruments from all over the world. This ensures that the app is useful to music lovers everywhere, from a jazz club in New York to a traditional music festival in India.
 </p>
 
 Let's start making your machine learning application in Scratch and think about what it will do!
