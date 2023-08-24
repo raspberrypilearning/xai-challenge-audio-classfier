@@ -158,11 +158,11 @@ Once you have tested a few of the images, answer the following questions in your
 title: Bias and data
 ---
 
-When we teach a computer to recognise different things, like dogs and cats, we need to give it lots of examples to learn from. These examples are called **training data**.
+When we teach a model to recognise different things, like dogs and cats, we need to give it lots of examples to learn from. These examples are called **training data**.
 
 If we use a training dataset that contains mostly small dogs and large cats, this does not accurately represent the real world as there are also large dogs and small cats. If the data used to train the model is not representative of what you're trying to model,the prediction which your model makes won't be either.
 
-This is called **bias**, which means the computer is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different sizes and breeds of dogs and cats. By doing this, we can help the computer learn to recognise the features that distinguish each type of animal, rather than just relying on the size of the training examples.
+This is called **bias**, which means the model is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different sizes and breeds of dogs and cats. By doing this, we can help the model learn to recognise the features that distinguish each type of animal, rather than just relying on the size of the training examples.
 
 --- /collapse ---
 
