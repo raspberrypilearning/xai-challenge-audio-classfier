@@ -139,7 +139,7 @@ Say one of the words that you have trained the computer to recognise: "up", "dow
 
 --- task ---
 
-If you’re not happy with how the model is working, go back to the **Train** page and add more examples to all the training buckets. Try varying your speed and pronunciation, having other people add samples in their voice... or doing funny voices yourself!
+If you’re not happy with how the model is working, go back to the **Train** page (by clicking `back to project` and then `Train`) and add more examples to all the training buckets. Try varying your speed and pronunciation, having other people add samples in their voice... or doing funny voices yourself!
 
 --- /task ---
 
