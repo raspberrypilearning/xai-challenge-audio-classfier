@@ -3,10 +3,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Your model is trained, tested and ready to use, but to do that you need to create a scratch project that can allow your user to input images and classify the input as `hotdog` or `nothotdog`.
+Your model is trained, tested and ready to use, but to do that you need to create a scratch project that can allow your user to speak into the microphone and classify the input as `up`, `down`, `left` or `right`.
 </div>
 <div>
-![Image showing a cat standing in front of a hotdog saying the confidence score of a machine learning model that it is indeed a hotdog](images/demo_shot.png){:width="300px"}
+![Image showing a cat saying 'I hear Up'](images/demo_shot.png){:width="300px"}
 </div>
 </div>
 
@@ -62,7 +62,7 @@ Save your work as often as you can to make sure you don’t lose any progress!
 
 --- task ---
 
-Add a `when green flag clicked`{:class="block3events"} block to your workspace. This is the script that will run the first time we start the project. 
+From the yellow `Events`{:class="block3events"} block menu, Add a `when green flag clicked`{:class="block3events"} block to your workspace. This is the script that will run the first time we start the project. 
 
 ```blocks3
 when green flag clicked

@@ -13,7 +13,7 @@ And here’s the super cool part: once you get the hang of it with directions, y
 
 ### You will
 
-Using the Machine Learning for Kids platform, a pinch of Scratch, a microphone and a whole lot of speaking, you will:
+Using the Machine Learning for Kids platform, the Scratch coding platform, a microphone and a whole lot of speaking, you will:
   + Build a machine learning model on Machine Learning for Kids
   + Collect audio data of the words `up`, `down`, `left` and `right`
   + Train your machine learning model on your collected audio samples

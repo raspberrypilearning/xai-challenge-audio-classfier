@@ -59,9 +59,9 @@ Now that you have created a project that identifies sounds, you need to set out 
 title: Classes and Labels
 ---
 
-**Labels** are the tags we attach to each audio clip to help the model identify what sound it's hearing, while **classes** are the main categories we sort these clips into. In this project, we're working with four classes: 'up', 'down', 'left', and 'right'.
+**Labels** are the tags we attach to each audio clip to help the model identify what sound it's hearing, while **classes** are the main categories we sort these clips into. In this project, we're working with four classes: `up`, `down`, `left` and `right`.
 
-Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving 'up', you'd label that sound as 'up'. By doing this, you're informing the model that this particular sound corresponds to the 'up' direction. Similarly, if a sound suggests going 'left', you'd label it 'left', placing it in the 'left' class. The model will then use these labels to learn and differentiate between sounds for each direction.
+Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving `up`, you'd label that sound as `up`. By doing this, you're informing the model that this particular sound corresponds to the `up` direction. Similarly, if a sound suggests going `left`, you'd label it `left`, placing it in the `left` class. The model will then use these labels to learn and differentiate between sounds for each direction.
 
 
 ![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
