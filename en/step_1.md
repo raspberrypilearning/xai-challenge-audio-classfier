@@ -8,7 +8,7 @@ At the heart of this superpower is teaching your computer what to look for. It�
 And here’s the super cool part: once you get the hang of it with directions, you can teach your computer to recognise anything! Your name, certain songs or phrases, or even recorded animal or nature sounds! The sky’s the limit once you grasp the basics of audio classification. So, are you ready to give your tech some awesome “hearing” skills? Let’s jump in!
 
 
-![Image showing a cat standing in front of a hotdog saying the confidence score of a machine learning model that it is indeed a hotdog](images/demo_shot.png) **UPDATE DEMO_SHOT.PNG HERE**
+![Image showing a cat standing in front of a hotdog saying the confidence score of a machine learning model that it is indeed a hotdog](images/demo_shot.png)
 
 
 ### You will
