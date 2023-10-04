@@ -1,9 +1,9 @@
 ## Introduction
 Welcome to Stage 2 of the Experience AI Challenge! You're about to embark on an audio odyssey where we cross the soundscapes of voice, machine learning, and coding.
 
-Ever wonder how your home assistant knows what you say and can respond? That’s all thanks to the technical wizardry of audio classification. Imagine giving your computer a superpower, where it can “hear” and understand voices, just like we do!
+Ever wonder how your home assistant knows what you say and can respond? That’s all thanks to the amazing technical achievement of audio classification. Using machine learning, you can get a computer to process audio data and simulate hearing!
 
-At the heart of this superpower is teaching your computer what to look for. It’s kind of like teaching a baby to understand its first words. “👆This way is *up*. 👇This way is *down*.” By hearing the words lots and lots of times, the computer starts picking up on tiny clues – like tone, sound and patterns.
+At the heart of this superpower is teaching your computer what to look for. It’s kind of like teaching a baby to understand its first words. “👆This way is *up*. 👇This way is *down*.” By processing the sounds lots and lots of times, the computer starts picking up on tiny clues – like tone, sound and patterns.
 
 And here’s the super cool part: once you get the hang of it with directions, you can teach your computer to recognise anything! Your name, certain songs or phrases, or even recorded animal or nature sounds! The sky’s the limit once you grasp the basics of audio classification. So, are you ready to give your tech some awesome “hearing” skills? Let’s jump in!
 
