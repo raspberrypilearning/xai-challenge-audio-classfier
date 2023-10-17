@@ -12,9 +12,9 @@ Open the website [Machine Learning for Kids](https://machinelearningforkids.co.u
 
 --- task ---
 
-In the screen that appears, choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
+On the screen that appears, choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
 
-![A picture of the blue log in button](images/singup_login.png)
+![A picture of the blue log in button.](images/singup_login.png)
 
 Choose **Sign Up** if you are creating your own account and follow the prompts to create a new account.
 
@@ -22,15 +22,15 @@ Choose **Sign Up** if you are creating your own account and follow the prompts t
 
 --- task ---
 
-Select **Go to your Projects**.
-![Image of the blue go to your projects button on machine learning for kids](images/go2projects.png)
+Select **Go to your projects**.
+![Image of the blue 'Go to your projects' button on Machine Learning for Kids.](images/go2projects.png)
 
 --- /task ---
 
 --- task ---
 
 Select **Add a new project**.
-![Image of a grey button which reads 'Go to your projects'](images/add_new_project.png)
+![Image of a grey button that reads 'Add a new project'.](images/add_new_project.png)
 
 --- /task ---
 
@@ -52,21 +52,21 @@ Once created, click on the project title.
 --- /task ---
 
 
-Now that you have created a project that identifies sounds, you need to set out the different **classes** for your audio - the different words you want the model to recognise. In this example we will use the words `up`, `down`, `left` and `right`.
+Now that you have created a project that identifies sounds, you need to set out the different **classes** for your audio - the different words you want the model to classify. In this example, we will use the words `up`, `down`, `left`, and `right`.
 
 --- collapse ---
 ---
-title: Classes and Labels
+title: Classes and labels
 ---
 
-**Labels** are the tags we attach to each audio clip to help the model identify what sound it's hearing, while **classes** are the main categories we sort these clips into. In this project, we're working with four classes: `up`, `down`, `left` and `right`.
+**Labels** are the tags we attach to each audio clip to help the model identify what sound it's processing. **Classes** are the main categories we sort these clips into. In this project, we're working with four classes: `up`, `down`, `left`, and `right`.
 
-Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving `up`, you'd label that sound as `up`. By doing this, you're informing the model that this particular sound corresponds to the `up` direction. Similarly, if a sound suggests going `left`, you'd label it `left`, placing it in the `left` class. The model will then use these labels to learn and differentiate between sounds for each direction.
+Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving `up`, you'd label that sound as `up`. By doing this, you're informing the model that this particular sound corresponds to the `up` direction. Similarly, if a sound suggests going `left`, you'd label it `left`, and place it in the `left` class. The model will then use these labels to learn and differentiate between sounds for each direction.
 
 
-![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
+![An image explaining that a class is a major category that images can be sorted into. It shows a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture.](images/class_vs_label.png)
 
-The classes you select are pivotal to how the model understands the sounds. In this instance, it needs to accurately categorize audio clips into one of the four directions. However, in different projects, you might classify sounds based on their tone, emotion, volume or any other distinct characteristic.
+The classes you select are pivotal to how the model classifies the sounds. In this instance, it needs to accurately categorise audio clips into one of the four directions. However, in different projects, you might classify sounds based on their tone, emotion, volume, or any other distinct characteristic.
 
 --- /collapse ---
 
@@ -87,26 +87,26 @@ If your browser asks you for permission to use your microphone click **Allow**.
 
 --- task ---
 
-Click `Add Example`. 
+Click `Add example`. 
 
-![Button which reads '+ add example'](images/add_example.png)
+![Button that reads '+ add example'.](images/add_example.png)
 
 --- /task ---
 
-In the popup that appears, click the blue microphone to record some 2 second samples of the ambient sound in the room - just whatever is going on around you, but try not to speak into the microphone directly just yet. Remember, we're trying to capture `background noise`!
+In the pop-up box that appears, click the blue microphone to record some 2 second samples of the ambient sound in the room - just whatever is going on around you, but try not to speak into the microphone directly just yet. Remember, you're trying to capture `background noise`!
 
 --- task ---
 
 Record a sample of `background noise` by clicking the microphone. 
 
-![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone](images/add_background_noise.png)
+![A pop-up box that says "Add example. Record an example of 'background noise'", with a small blue icon showing a microphone.](images/add_background_noise.png)
 
 --- /task ---
 
 --- task ---
 
-When the recording is finished, click the blue **Add** button in the popup:
-![A popup which says Add example.Record an example of 'background noise', with a small blue icon showing a microphone and a soundprint of the ambient recording](images/add_bg_noise_2.png)
+When the recording is finished, click the blue **Add** button in the pop-up box:
+![A pop-up box that says "Add example. Record an example of 'background noise'", with a small blue icon showing a microphone and a soundprint of the ambient recording.](images/add_bg_noise_2.png)
 
 --- /task ---
 
