@@ -16,21 +16,21 @@ You could:
 
 --- collapse ---
 ---
-title: Making changes based on the confidence of the model
+title: Make changes based on the confidence of the model
 ---
 
 Use the `recognise image (backdrop image) confidence` block with size and volume controls, or have something happen if the confidence is above or below a certain level:
 
-![A list of blocks. A set volume block, a set size block and an if block, all have a block which determines the confidence of the model inserted into their variable ports.](images/confidence_if.png)
+![A list of blocks, including a set volume block, a set size block, and an if block. All have a block that determines the confidence of the model inserted into their variable ports.](images/confidence_if.png)
 
 --- /collapse ---
 
 **This was just the warm up!** Now that you know how to build a classification application that can control things on screen through sounds, what do **you** want to make? 
 
-In the next stage of the Experience AI challenge, you'll get to use the skills you've learnt in this project to create something totally cool and unique using Scratch and Machine Learning! 
+In the next stage of the Experience AI Challenge, you'll get to use the skills you've learnt in this project to create something totally cool and unique using Scratch and machine learning! 
 
 --- task ---
 
-[Click here](https://projects.raspberrypi.org/en/projects/xai-challenge-submit/) to take the next exciting step in creating your own Artificial Intelligence app!
+[Click here](https://projects.raspberrypi.org/en/projects/xai-challenge-submit/) to take the next exciting step in creating your own artificial intelligence app!
 
 --- /task ---
