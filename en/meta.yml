@@ -1,13 +1,13 @@
 title: Chatterbox
 hero_image: images/banner.png
-description: Create a machine learning model which can recognise and follow commands in your voice
+description: Create a machine learning model that can classify sounds and use it to make an app that will obey your voice.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - title: Introduction
-  - title: Create a Machine Learning model
+  - title: Create a machine learning model
   - title: Train the model
-  - title: Make a Scratch Application
+  - title: Make a Scratch application
   - title: What next?
