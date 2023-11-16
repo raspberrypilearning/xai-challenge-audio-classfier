@@ -59,14 +59,15 @@ Now that you have created a project that identifies sounds, you need to set out 
 title: Classes and Labels
 ---
 
-**Labels** are the tags we attach to each audio clip to help the model identify what sound it's hearing, while **classes** are the main categories we sort these clips into. In this project, we're working with four classes: `up`, `down`, `left` and `right`.
+**Classes** are the major categories we're trying to sort those images into. In our case, we  have four **classes**: `up`, `down`, `left` and `right`.
 
-Imagine you have different sounds that represent each of these directions. If you hear an audio clip that signifies moving `up`, you'd label that sound as `up`. By doing this, you're informing the model that this particular sound corresponds to the `up` direction. Similarly, if a sound suggests going `left`, you'd label it `left`, placing it in the `left` class. The model will then use these labels to learn and differentiate between sounds for each direction.
+**Labels** are the specific names we give to each picture in the training data to help the model identify what is in each image.
 
+For instance, if you have a clip of someone saying "up" in the training data, you'll label that clip as `up`. By doing this, you're telling the model that this image belongs to the `up` class. Similarly, if you have a clip of someone saying "down", you'll label it `down`, placing it in the `down` class. Once you train it on this information, the model can be used to predict which class new clips belong to.
 
 ![An image explaining that a class is a major category images can be sorted into, showing a group of apple pictures in one box, next to an explanation that a label is given to each image to show which class it fits into, with a single apple picture](images/class_vs_label.png)
 
-The classes you select are pivotal to how the model understands the sounds. In this instance, it needs to accurately categorize audio clips into one of the four directions. However, in different projects, you might classify sounds based on their tone, emotion, volume or any other distinct characteristic.
+You can use as many classes as you want in your model. In our scenario, it's pretty straightforward: every clip is either `up`, `down`, `left` or `right`. But in other projects, you could have multiple classes based on various characteristics of the data you're working with. (specific musical instruments, the names of your friends or pets, songs you like....)
 
 --- /collapse ---
 

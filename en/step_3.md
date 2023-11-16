@@ -109,19 +109,19 @@ Now that you have trained your model, it is time to test it to see how successfu
 
 --- collapse ---
 ---
-title: Training Data vs. Testing Data
+title: Training data vs. testing data
 ---
 
-To teach a computer program a specific task, we provide it with a particular set of data called **training data**. This set is similar to the exercises in a textbook that have answers; they help in understanding and practicing the topic.
+To train a machine learning model to classify a specific item, we provide it with a particular set of data called **training data**. This data set is similar to the exercises in a textbook that have answers; they help in understanding and practicing the topic.
 
 After processing the training data, it's essential to check the program's performance. For this, we introduce it to a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practiced, but they cover the same topic.
 
-**Why Keep Them Separate?**
+**Why keep them separate?**
 If we use the same data for both training and testing, it's like giving you a maths test with the exact same questions you practised with. You might get all the answers right, but it doesn't show if you understand the topic broadly. It only shows that you know those specific questions.
 
-Similarly, if we test the computer program with the same data it trained on, we can't be sure if it has learned the task broadly or if it just "remembers" that specific data. By using different data for testing, we can get a better idea of how well the program can handle new, unseen situations.
+Similarly, if we test the model with the same data it was trained on, we can't be sure if it has analysed enough data to make accurate predictions or if it has already classified that specific data during training. By using different data for testing, we can get a better idea of how well the model can classify **new** items of data.
 
-So, it's essential to keep training and testing data separate to ensure that the computer program can perform the task accurately in various situations, not just the ones it has seen before.
+So, it's essential to keep the training and testing data separate to make sure you get a realistic assessment of how the model performs. 
 
 --- /collapse ---
 
@@ -158,11 +158,11 @@ Once you have tested a few of the images, answer the following questions in your
 title: Bias and data
 ---
 
-When we teach a model to recognise different things, like dogs and cats, we need to give it lots of examples to learn from. These examples are called **training data**.
+When we train a model to classify different things, like dogs and cats, we need to give it lots of examples. These examples are called **training data**.
 
-If we use a training dataset that contains mostly small dogs and large cats, this does not accurately represent the real world as there are also large dogs and small cats. If the data used to train the model is not representative of what you're trying to model,the prediction which your model makes won't be either.
+If we use a training data set that contains mostly small dogs and large cats, this does not accurately represent the real world as there are also large dogs and small cats. If the training data is not representative of what you want to model, the model is more likely to output an incorrect prediction.
 
-This is called **bias**, which means the model is favouring one thing over another. We can fix this by using a more diverse training dataset that includes different sizes and breeds of dogs and cats. By doing this, we can help the model learn to recognise the features that distinguish each type of animal, rather than just relying on the size of the training examples.
+This is called **bias**, which means the model favours one thing over another. We can fix this by using a more diverse training data set that includes different sizes, colours, and breeds of dogs and cats. By doing this, we can help the model identify the features that distinguish each type of animal, rather than just relying on the animal's size.
 
 --- /collapse ---
 
