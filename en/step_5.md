@@ -25,7 +25,7 @@ Use the `recognise image (backdrop image) confidence` block with size and volume
 
 --- /collapse ---
 
-**This was just the warm up!** Now that you know how to build a classification application that can control things on screen through sounds, what do **you** want to make? 
+**This was just the warm up!** Now that you know how to build a classification application that can distinguish between sounds, what do **you** want to make? 
 
 In the next stage of the Experience AI Challenge, you'll get to use the skills you've learnt in this project to create something totally cool and unique using Scratch and machine learning! 
 
