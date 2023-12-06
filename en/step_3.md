@@ -1,8 +1,8 @@
 ## Train the model
 
-Imagine you're teaching a parrot to mimic certain words. You say "left", and you want the parrot to repeat "left". At first, the parrot might not get it right, maybe it squawks or says something different. But if you keep repeating "left" to the parrot and encourage it when it gets it right, eventually it will start saying "left" back to you. The same goes for "right", "up", and "down". After some time, whenever you say one of these words, the parrot will repeat it perfectly.
+Imagine you're teaching a parrot to mimic certain words. You say "left", and you want the parrot to repeat "left". At first, the parrot might not get it correct, maybe it squawks or says something different. But if you keep repeating "left" to the parrot and reward it when it repeats the word correctly, eventually it will start saying "left" back to you. The same goes for "right", "up", and "down". After some time, whenever you say one of these words, the parrot will repeat it perfectly.
 
-Training an audio classifier is a lot like teaching this parrot, but with a computer instead of a feathery friend. We want the computer to recognise the words 'left', 'right', 'up', and 'down'. So, we repeatedly "tell" the computer these words and correct it if it gets them wrong. After a while, just like the parrot, the computer will be able to identify these words whenever it "hears" them.
+Training an audio classifier is a lot like teaching this parrot, but with a computer instead of a feathery friend. We want the computer to recognise the words 'left', 'right', 'up', and 'down'. So, we repeatedly "tell" the computer these words (in lots of training samples) and correct it if it gets them wrong. After a while, just like the parrot, the computer will be able to identify these words whenever it "hears" them.
 
 --- task ---
 
@@ -46,13 +46,13 @@ Imagine you're teaching a new word to a friend from another country. Sometimes y
 
 + Speak clearly...but not always: Start by saying "left", "right", "up", and "down" very clearly. But also, mix it up! Sometimes say them quickly, or the way you'd say them in a regular conversation. This teaches the computer to classify the words even when they're not perfectly pronounced.
 
-+ Hold the mic steady: If you're using a microphone or a phone, hold it steady, about a hand's length away from your mouth. A headset mic shouldn't touch your face when you speak. Think of it as the "listening ear" that's eager to learn!
++ Hold the mic steady: If you're using a microphone or a phone, hold it steady, about a hand's length away from your mouth. A headset mic shouldn't touch your face when you speak. 
 
 + Not too loud, not too soft: Speak at a normal volume. Imagine you're chatting with your friend at the park – not too shouty, but not whispering secrets either.
 
-+ Do a test run: Before diving in, record a short clip and listen to it. If you can understand yourself, the computer probably can process the data accurately too!
++ Do a test run: Before diving in, record a short clip and listen to it. If you can understand yourself, the computer can probably process the data accurately too!
 
-By giving the computer a mix of clear and everyday pronunciations, it'll be able to process real-world examples, no matter how you say the words. 
+By giving the computer a mix of clear and everyday pronunciations, it'll be able to process real-world examples, no matter how you (or your users) say the words. (One of Google's voice assistant training datasets - called PRESTO - contains more than five hundred and fifty thousand conversations in six languages!)
 
 --- /collapse ---
 
@@ -158,11 +158,11 @@ Once you have tested the model a few times, answer the following questions in yo
 title: Bias and data
 ---
 
-When we train a model to classify different things, like dogs and cats, we need to give it lots of examples. These examples are called **training data**.
+When we train a model to classify different things, like the words "yes" and "no", we need to give it lots of examples. These examples are called **training data**.
 
-If we use a training data set that contains mostly small dogs and large cats, this does not accurately represent the real world as there are also large dogs and small cats. If the training data is not representative of what you want to model, the model is more likely to output an incorrect prediction.
+If we use a training data set that contains mostly loud "yes" and quiet "no" sounds, this does not accurately represent the real world as there are also quiet  "yes" and loud "no" sounds. If the training data is not representative of what you want to model, the model is more likely to output an incorrect prediction.
 
-This is called **bias**, which means the model favours one thing over another. We can fix this by using a more diverse training data set that includes different sizes, colours, and breeds of dogs and cats. By doing this, we can help the model identify the features that distinguish each type of animal, rather than just relying on the animal's size.
+This is called **bias**, which means the model favours one thing over another. We can fix this by using a more diverse training data set that includes different volumes, tones, and emphasis of the "yes" and "no" sounds. By doing this, we can help the model identify the features that distinguish each word, rather than just relying on the volume of the sounds.
 
 --- /collapse ---
 
