@@ -52,7 +52,7 @@ Imagine you're teaching a new word to a friend from another country. Sometimes y
 
 + Do a test run: Before diving in, record a short clip and listen to it. If you can understand yourself, the computer can probably process the data accurately too!
 
-By giving the computer a mix of clear and everyday pronunciations, it'll be able to process real-world examples, no matter how you (or your users) say the words. (One of Google's voice assistant training datasets - called PRESTO - contains more than five hundred and fifty thousand conversations in six languages!)
+By giving the computer a mix of clear and everyday pronunciations, it'll be able to process real-world examples, no matter how you (or your users) say the words. For example, one of Google's voice assistant training datasets — called PRESTO — contains more than 550,000 conversations in six languages!
 
 --- /collapse ---
 
@@ -69,7 +69,7 @@ title: How many samples should I add?
 
 Eight is the **very lowest** number of samples each class can have to create a working model. 
 
-You should aim for **around 10-15 samples of each word**, but again - the more **training data** you add to your model at this stage, the more accurate it will be at classifying the words you say.
+You should aim for **around 10-15 samples of each word**, but again — the more **training data** you add to your model at this stage, the more accurate it will be at classifying the words you say.
 
 
 --- /collapse ---
@@ -99,7 +99,7 @@ Your model is now ready to be trained.
 Select **Train new machine learning model**.
 ![](images/train_new.png)
 
-You will have to wait a few moments while the model trains - read the information below about testing while the model is processing!
+You will have to wait a few moments while the model trains — read the information below about testing while the model is processing!
 
 --- /task ---
 
@@ -112,9 +112,9 @@ Now that you have trained your model, it is time to test it to see how successfu
 title: Training data vs. testing data
 ---
 
-To train a machine learning model to classify a specific item, we provide it with a particular set of data called **training data**. This data set is similar to the exercises in a textbook that have answers; they help in understanding and practicing the topic.
+To train a machine learning model to classify a specific item, we provide it with a particular set of data called **training data**. This data set is similar to the exercises in a textbook that have answers; they help in understanding and practising the topic.
 
-After the model has processed the training data, it's essential to check the model's performance. For this, we input a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practiced, but they cover the same topic.
+After the model has processed the training data, it's essential to check the model's performance. For this, we input a new set of data known as **testing data**. Think of this as taking a quiz or test at school: the questions aren't identical to what you practised, but they cover the same topic.
 
 **Why keep them separate?**
 If we use the same data for both training and testing, it's like giving you a maths test with the exact same questions you practised with. You might get all the answers right, but it doesn't show if you understand the topic broadly. It only shows that you know those specific questions.
@@ -139,7 +139,7 @@ Say one of the words that you have trained the computer to classify: "up", "down
 
 --- task ---
 
-If you’re not happy with how the model is working, go back to the **Train** page (by clicking **Back to project** and then **Train**) and add more examples to all the training classes. Try varying your speed and pronunciation, or get other people to add samples in their voice...or doing funny voices yourself!
+If you’re not happy with how the model is working, go back to the **Train** page (by clicking **Back to project** and then **Train**) and add more examples to all the training classes. Try varying your speed and pronunciation, or get other people to add samples in their voice...or do some funny voices yourself!
 
 --- /task ---
 
