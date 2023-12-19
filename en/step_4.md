@@ -43,7 +43,7 @@ The new grey blocks you can see in that menu allow you to access your machine le
 
 --- collapse ---
 ---
-title: Pro tip - Save your work!
+title: Pro tip: Save your work!
 ---
 
 This special version of Scratch allows you to access your machine learning model, **but** if you try to open your project in another version of Scratch online **it won’t work**. 
@@ -139,7 +139,7 @@ Your application is now ready to start listening once you click the green flag. 
 
 --- task ---
 
-From the Machine Learning for Kids menu, drag in several blocks - one for each word your model is trained on:
+From the Machine Learning for Kids menu, drag in several blocks — one for each word your model is trained on:
 
 
 ```blocks3
@@ -235,7 +235,7 @@ You should see you sprite begin to move!
 
 --- /task ---
 
-You have now trained your own machine learning model to recognise speech, and used that to control a character in Scratch! 
+You have now trained your own machine learning model to classify speech, and used that to control a character in Scratch! 
 
 In the next step, you can customise the way your application looks by adding costumes and some new features that activate depending on the classification of your input.
 
