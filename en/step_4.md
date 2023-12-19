@@ -43,7 +43,7 @@ The new grey blocks you can see in that menu allow you to access your machine le
 
 --- collapse ---
 ---
-title: Pro tip: Save your work!
+title: Pro tip - Save your work!
 ---
 
 This special version of Scratch allows you to access your machine learning model, **but** if you try to open your project in another version of Scratch online **it won’t work**. 
